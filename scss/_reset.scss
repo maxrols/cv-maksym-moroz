@@ -1,0 +1,39 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a { 
+    text-decoration: none; 
+
+    &:focus {
+        outline: none;
+        border: none;
+    }
+}
+
+li { list-style: none; }
+
+img, ion-icon, a, button, time, span { 
+    display: block; 
+}
+
+button {
+font: inherit;
+background: none;
+border: none;
+text-align: left;
+cursor: pointer;
+&:focus {
+    border: none;
+    outline: none;
+}
+}
+
+input, textarea {
+display: block;
+width: 100%;
+background: none;
+font: inherit;
+}
